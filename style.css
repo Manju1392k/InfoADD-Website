@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     width: 100vw;
     height: 5rem;
@@ -51,6 +55,18 @@
     text-align: center;
 }
 
-.adds{
-    padding:2rem;
+.adds {
+    padding: 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxone {
+    width: 45vw;
+    height: 20rem;
+    border: 2px solid red;
+    margin-top: 1rem;
 }
