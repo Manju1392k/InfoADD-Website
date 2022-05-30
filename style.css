@@ -67,6 +67,20 @@ body {
 .boxone {
     width: 45vw;
     height: 20rem;
-    border: 2px solid red;
+    border: 2px solid #333;
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagephoto {
+    width: 20vw;
+    height: 18rem;
+    background-color: rgb(129, 129, 129);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
